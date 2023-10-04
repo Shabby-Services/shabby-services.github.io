@@ -1,0 +1,86 @@
+html, body {margin: 0; background-color:#424242; color: white; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+header {
+    background-color: #5f5f5f;
+    padding: 16px 0 16px 0;
+}
+
+header ul {
+    list-style: none; /* Remove default list bullet points */
+  }
+  
+  header ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 36px; /* Add space between list items */
+  }
+  
+  header h2 {
+    display: inline; /* Display <h2> elements inline */
+  }  
+
+header h2:hover {
+    text-decoration: underline;
+}
+
+.why-us {
+    text-align: center;
+}
+.why-us h2{
+    color: #FA9C1B;
+}
+.icon {
+    border-radius: 50% 50%;
+    background-color: #FA9C1B;
+    padding: 24px;
+    width: 24px;
+}
+
+.image-with-text-right {
+    display: flex;
+    align-items: center;
+  }
+.image-with-text-right p {
+    width: 25%;
+    font-size: 20px;
+}
+.image-with-text-right h2 {
+    margin: 0;
+    width: 50%;
+    font-size: 32px;
+}
+  
+.small-image {
+    box-shadow: 24px 24px #FA9C1B;
+    width: 350px;
+    object-fit: cover;
+    transition-duration: 0.35s;
+  }
+.small-image:hover {
+    box-shadow: 24px 24px #F58216;
+    transition-duration: 0.35s;
+}
+
+.portfolio {
+    margin-top: 80px;
+    background-color: #5f5f5f;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 150px 0 150px 0;
+}
+
+.portfolio button {
+    background-color: #FA9C1B;
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    border: none;
+    border-radius: 24px 24px;
+    padding: 12px;
+    transition-duration: 0.2s;
+}
+
+.portfolio button:hover {
+    transition-duration: 0.2s;
+    background-color: #F58216;
+}
