@@ -1,0 +1,14 @@
+.hero-box {
+    transition-duration: 0.35s;
+    color: white;
+    background-color: rgba(0,0,0,0.75);
+    padding: 24px;
+    border-radius: 4px 4px;
+}
+
+.hero-box:hover {
+    transition-duration: 0.35s;
+    color: #FA9C1B;
+    border-color: #FA9C1B;
+    border: orange solid;
+}
