@@ -1,3 +1,7 @@
+.logo {
+    width: 350px;
+}
+
 .hero-box {
     transition-duration: 0.35s;
     color: white;
@@ -9,18 +13,18 @@
 
 .hero-box:hover {
     transition-duration: 0.35s;
-    color: #FBBB62;
+    color: #FF10F0;
 }
 
 .hero-bg {
     color: white;
-    background-image: url("https://picsum.photos/1920/1080");
+    background-image: url("images/preview.webp");
     padding: 150px 0 250px 0;
     background-size: cover;
 }
 
 .bar {
-    background-color: #FBBB62;
+    background-color: #C23373;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -32,6 +36,17 @@
     color: white;
     font-size: 18px;
 }
+.why-us img {
+    transition-duration: 0.35s;
+    float: right;
+    width: 350px;
+    margin: 24px;
+    box-shadow: 10px 10px #C23373;
+}
+.why-us img:hover {
+    transition-duration: 0.35s;
+    box-shadow: 12px 12px #BD4B9B;
+}
 
 .underline {
     text-decoration: underline;
@@ -40,5 +55,5 @@
 footer {
     color: white;
     padding: 200px;
-    background-color: #FFA500;
+    background-color: #BD4B9B;
 }
