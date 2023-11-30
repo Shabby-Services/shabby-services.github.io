@@ -1,51 +1,153 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <title>Shabby Services - Transforming Ideas into Polished Digital Realities</title>
-</head>
-<body>
-<!-- Hero banner -->
-<div class="hero-bg">
-<div class="container">
-    <h1 class="d-flex align-items-center justify-content-center pt-5"><strong>Shabby Services</strong></h1>
-    <p class="col-12 d-flex align-items-center justify-content-center pb-5">Transforming Ideas into Polished Digital Realities</p>
-  <div class="d-flex justify-content-center pt-5">
-    <!-- Hero box #1 (For you)-->
-    <div class="hero-box col-md-3 col-lg-4 me-5">
-      <h1>For <strong>You</strong></h1>
-      <p>Find a freelancer using our services.</p>
-      <p><strong>Get started today!</strong></p>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Codepulse Digital</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container align-items-center">
+      <div class="row col-6 text-center navigate">
+        <span id="home">Home</span>
+        <span id="overview">Overview</span>
+        <span id="about">About</span>
+        <span id="casestudies">Case studies</span>
+        <span id="contact">Contact</span>
+      </div>
+      <div class="row text-center home pt-3">
+        <h1 class="mt-5 animate__animated animate__backInLeft">We are</h1>
+        <dotlottie-player src="https://lottie.host/aa9fc545-6bff-4f7b-9750-d865f7774f5e/TYx86yolIa.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+        <h1 class="animate__animated animate__backInLeft">Codepulse Digital</h1>
+        <h6 class="">A small web development agency based in Chatham, Kent.</h6>
+        <button class="col-4 mt-5 mb-5">Learn More ➞</button>
+        <h3 class="mt-1 mb-3">Our mission.</h3>
+        <iframe class="col-12 introvideo" width="500" height="230"
+          src="https://www.youtube.com/embed/eEzD-Y97ges">
+        </iframe>
+      </div>
+      <br>
+      <div class="row mt-5 mb-5 overview">
+        <h1 class="mb-4 mt-5 text-center">Overview</h1>
+        <div class="card col-12 col-sm-6 col-md-4 col-lg-3">
+          <h2>What we do.</h2>
+          <p class="mt-3">Lorem ipsum dorem solor it.</p>
+          <button class="col-6 mt-5">Contact us ➞</button>
+        </div>
+        <div class="col-1"></div>
+        <div class="card col-12 col-sm-6 col-md-4 col-lg-4">
+          <h2>Why choose us?</h2>
+          <p class="mt-3">Elevate your brand with our expertise in front-end design, robust back-end functions, SEO optimization, and intuitive UI/UX. We blend innovation and precision to deliver websites that captivate, perform flawlessly, and rank higher. Choose us for transformative web solutions tailored to your success.</p>
+          <img class="mx-auto" src="images/person-coding.jpeg">
+        </div>
+        <div class="col-1"></div>
+        <div class="card col-12 col-sm-6 col-md-4 col-lg-3">
+          <h2>Case Studies</h2>
+          <p class="mt-4">Our work speaks for itself. Check out some of our clients website transformations by viewing the 'case studies' section below.</p>
+          <button class="col-6 mt-5">Case studies ➞</button>
+        </div>
+      </div>
+      <div class="row about specialisations mt-5 pt-5 col-12">
+        <h1 class="text-center mb-4">We specialise in...</h1>
+        <div class="faq">
+          <h2>Front-End</h2>
+          <p>Front-end development focuses on the user-facing aspects of a website or application, encompassing the design, layout, and functionality that users interact with directly. We offer a spectrum of services tailored to enhance user experiences. This includes crafting visually appealing interfaces, responsive designs for various devices, and intuitive navigation. We excel in HTML, CSS, JavaScript, ensuring seamless integration and interactive elements. Our expertise extends to frameworks like React.js, Angular.js, and Vue.js, enabling us to build dynamic and engaging web solutions. At our agency, we prioritise user-centric designs, optimising performance and usability to elevate your digital presence.</p>
+          <h2>Back-End</h2>
+          <p>Back-end development involves building the functional core of websites and applications. We specialize in PHP and Node.js, the backbone of our back-end services. With PHP, we craft dynamic web solutions, leveraging its versatility and robustness. Node.js empowers us to build scalable, real-time applications with its event-driven architecture. Our expertise spans database management, API integration, and logic implementation, ensuring secure data handling and seamless server-client interactions. Using frameworks like Laravel for PHP and Express.js for Node.js, we tailor efficient back-end systems, prioritizing performance and security. Count on us to deliver optimized solutions that support your digital aspirations.</p>
+          <h2>SEO</h2>
+          <p>Search Engine Optimisation aims to enhance a website's visibility and ranking in search engine results. At Codepulse, we specialise in SEO strategies to elevate your online presence. We offer comprehensive SEO services, including keyword research, on-page optimisation, and content strategy. Our expertise extends to technical SEO, ensuring website performance, mobile-friendliness, and site structure for search engine crawlers. We optimise meta tags, improve site speed, and facilitate link-building strategies for increased organic traffic. With analytics and regular monitoring, we refine SEO approaches, delivering tailored solutions that enhance your website's search engine rankings and drive valuable traffic to your online platform.</p>
+          <h5>Looking for more? <span id="justask">Just ask! ➞</span></h5>
+        </div>
+      </div>
+      <div class="row about our-team mt-5 pt-5 justify-content-center">
+        <h1 class="text-center mb-4">Meet the team</h1>
+        <div class="card col-12 col-sm-3 text-center">
+          <img src="images/placeholder-member.webp" class="mx-auto">
+          <h3>Jacob Ryan</h3>
+          <h5>CTE (Chief Technical Executive)</h5>
+        </div>
+        <div class="col-1"></div>
+        <div class="card col-12 col-sm-3 text-center">
+          <img src="images/placeholder-member.webp" class="mx-auto">
+          <h3>Alfie Withers</h3>
+          <h5>BDE (Business Development Executive)</h5>
+        </div>
+      </div>
+      <div class="row about our-team">
+        <div class="card col-12 col-sm-3 text-center">
+          <img src="images/placeholder-member.webp" class="mx-auto">
+          <h3>Roman Fisher</h3>
+          <h5>Content Team Member</h5>
+        </div>
+        <div class="col-1"></div>
+        <div class="card col-12 col-sm-3 text-center">
+          <img src="images/placeholder-member.webp" class="mx-auto">
+          <h3>Jacob Robinson</h3>
+          <h5>Client Support</h5>
+        </div>
+        <div class="col-1"></div>
+        <div class="card col-12 col-sm-3 text-center">
+          <img src="images/placeholder-member.webp" class="mx-auto">
+          <h3>Ankusan Maathavan</h3>
+          <h5>Junior Developer</h5>
+        </div>
+        <button class="col-4 col-sm-2 mt-5 mb-5 mx-auto">Careers ➞</button>
+      </div>
+      <div class="row mt-5 pt-5 case-studies mb-5 pb-5 col-12">
+        <h1 class="text-center mb-4">Case studies</h1>
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 card case-study">
+          <img class="mx-auto" src="images/casestudy-placeholder.webp">
+          <h2>Case Study</h2>
+          <p>Lorem ipsem dolor sit amet.</p>
+          <button class="col-4 col-md-3">View ➞</button>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 card case-study">
+          <img class="mx-auto" src="images/casestudy-placeholder.webp">
+          <h2>Case Study</h2>
+          <p>Lorem ipsem dolor sit amet.</p>
+          <button class="col-4 col-md-3">View ➞</button>
+        </div>
+      </div>
+      <div class="row mb-5 mt-5 pt-5 col-12">
+        <h2 class="text-center mb-5">Stand out with Codepulse.</h2>
+        <button class="col-4 col-sm-2 mx-auto">Contact Us ➞</button>
+        <div class="col-12"></div>
+      </div>
     </div>
-    <div class="col-lg-4 col-md-3"></div>
-    <!-- Hero box #2 (For brands)-->
-    <div class="hero-box col-md-3 col-lg-4 text-end ms-5">
-      <h1>For <strong>Brands</strong></h1>
-      <p>Find freelancer(s) using our services.</p>
-      <p><strong>Get started today!</strong></p>
     </div>
-  </div>
-</div>
-</div>
-<div class="bar">.</div>
-<!-- Why us-->
-<div class="why-us">
-<div class="container">
-  <div class="row">
-    <h2 class="d-flex justify-content-center pt-5 mt-5 pb-4 underline"><strong>Why us?</strong></h2>
-    <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5 pb-5 mb-5">
-      <p class="">Choose our freelance service team and unlock a world of limitless possibilities for your digital endeavors. Our team of seasoned professionals excels in plugin development, website development, bot development, and graphic design, and we're driven by a singular passion: your success. What sets us apart is not just our expertise, but our unwavering commitment to turning your dreams into reality. With a relentless pursuit of excellence, we don't just meet your expectations; we surpass them. Whether you're a startup looking to make a mark or an established business aiming to redefine your digital presence, we're the creative powerhouse you need. With us, innovation knows no bounds, and your vision becomes our mission.</p>
     </div>
-    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"><img src="images/placeholder.webp"></div>
-  </div>
-</div>
-</div>
-<div class="bar">.</div>
-<footer>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  </body>
+  <footer class="container mt-5 pt-5">
+    <div class="row col-12">
+      <div class="row justify-content-around">
+        <div class="col-12 col-md-4">
+          <h5 class="mb-4">Our links</h5>
+          <div class="socials">
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-youtube"></i>
+            <i class="bi bi-reddit"></i>
+          </div>
+        </div>
+        <div class="col-4 text-center">
+          <p>© Codepulse Digital 2023</p>
+          <img class="mx-auto" src="images/footer-pulse.png">
+        </div>
+        <div class="col-12 col-md-4">
+          <h5>Contact us</h5>
+          <i class="bi bi-telephone-fill"></i><span> +44 07762 425257</span><br>
+          <i class="bi bi-envelope-at-fill"></i><span> support@codepulsedigital.com</span>
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>

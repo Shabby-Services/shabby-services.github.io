@@ -1,0 +1,158 @@
+/* CSS Goes Here */
+@import 'animate.css';
+
+*::selection {
+    background: #F0F0F0;
+}
+
+.navigate {
+    position: fixed;
+    top: 0;
+    display: inline-block;
+    padding: 12px;
+    background-color: #F9F9F9;
+    border-radius: 0 0 20px 20px;
+    z-index: 100;
+}
+.navigate span {
+    transition-duration: 0.3s;
+    margin: 0 16px 0 16px;
+}
+.navigate span:hover {
+    text-shadow: 2px 2px 10px #A1A1A1;
+    transition-duration: 0.3s;
+}
+.navigate-current {
+    text-shadow: 2px 2px 10px #A1A1A1;
+    transition-duration: 0.3s;
+}
+
+.shadow-on-scroll {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introvideo {
+    position:static;
+}
+
+.overview {
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    flex: 0 0 auto;
+    background-image: url("images/btn-bg.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    border: 0 solid black;
+    padding: 12px;
+    box-shadow: 2px 2px 10px black;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    box-shadow: 4px 4px 10px black;
+    transition-duration: 0.3s;
+}
+
+.card {
+    background-color: #F9F9F9;
+    border-radius: 20px;
+    padding: 24px;
+    margin: 12px 0 12px 0;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.card img {
+    max-width: 100%;
+    width: 12rem;
+    border-radius: 20px 80px 20px 80px;
+    margin: 12px;
+}
+
+.card h3,
+.card h5 {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+h6 {
+    color: white;
+}
+
+.revealanimated {
+    color: #212529
+}
+
+.specialisations span {
+    text-decoration: underline;
+    color: black;
+}
+.specialisations p {
+    padding-bottom: 2rem;
+    border-bottom: #212529 2px solid;
+}
+
+.case-studies img {
+    width: max-content;
+}
+.case-studies p {
+    padding-bottom: 1rem;
+    border-bottom: #212529 2px solid;
+}
+
+.faq h2{
+    display: inline-block;
+}
+
+.faq i:hover {
+    display: none;
+}
+
+footer {
+    background-color: #F9F9F9;
+    margin-bottom: 0;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    z-index: -1;
+}
+
+footer button {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    height: 3rem;
+    width: 3rem;
+    z-index: 10;
+}
+
+.socials i{
+    background-color: #E9E9E9;
+    padding: 1rem;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+}
+.socials i:hover {
+    background-color: #E1E1E1;
+    box-shadow: 2px solid black;
+    transition-duration: 0.3s;
+}
