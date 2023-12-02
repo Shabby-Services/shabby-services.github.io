@@ -156,3 +156,9 @@ footer button {
     box-shadow: 2px solid black;
     transition-duration: 0.3s;
 }
+
+@media screen and (max-width: 768px) {
+    .navigate {
+        visibility: hidden;
+    }
+}
