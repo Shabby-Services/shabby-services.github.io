@@ -3,7 +3,9 @@ const overviewSection = document.querySelector('.overview');
 const homeSection = document.querySelector(".home");
 const homeTab = document.getElementById("home");
 const aboutSection = document.querySelector(".about");
-const aboutTab = document.querySelector("about");
+const aboutTab = document.getElementById("about");
+const casestudiesSection = document.querySelector(".case-studies");
+const casestudiesTab = document.getElementById("casestudies");
 
 document.addEventListener('DOMContentLoaded', function() {
     const h1Element = document.querySelector('.animate__backInLeft');

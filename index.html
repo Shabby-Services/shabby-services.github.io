@@ -18,7 +18,7 @@
         <span id="overview">Overview</span>
         <span id="about">About</span>
         <span id="casestudies">Case studies</span>
-        <span id="contact">Contact</span>
+        <span id="contact contact-us">Contact</span>
       </div>
       <div class="row text-center home pt-3">
         <h1 class="mt-5 animate__animated animate__backInLeft">We are</h1>
@@ -27,7 +27,7 @@
         <h6 class="">A small web development agency based in Chatham, Kent.</h6>
         <button class="col-4 mt-5 mb-5">Learn More ➞</button>
         <h3 class="mt-1 mb-3">Our mission.</h3>
-        <iframe class="col-12 introvideo" width="500" height="230"
+        <iframe class=introvideo" width="500" height="230"
           src="https://www.youtube.com/embed/eEzD-Y97ges">
         </iframe>
       </div>
@@ -37,7 +37,7 @@
         <div class="card col-12 col-sm-6 col-md-4 col-lg-3">
           <h2>What we do.</h2>
           <p class="mt-3">Lorem ipsum dorem solor it.</p>
-          <button class="col-6 mt-5">Contact us ➞</button>
+          <button class="col-6 mt-5 contact-us">Contact us ➞</button>
         </div>
         <div class="col-1"></div>
         <div class="card col-12 col-sm-6 col-md-4 col-lg-4">
@@ -116,7 +116,7 @@
       </div>
       <div class="row mb-5 mt-5 pt-5 col-12">
         <h2 class="text-center mb-5">Stand out with Codepulse.</h2>
-        <button class="col-4 col-sm-2 mx-auto">Contact Us ➞</button>
+        <button class="col-4 col-sm-2 mx-auto contact-us">Contact Us ➞</button>
         <div class="col-12"></div>
       </div>
     </div>
@@ -126,27 +126,40 @@
     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   </body>
-  <footer class="container mt-5 pt-5">
-    <div class="row col-12">
-      <div class="row justify-content-around">
-        <div class="col-12 col-md-4">
-          <h5 class="mb-4">Our links</h5>
-          <div class="socials">
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-twitter-x"></i>
-            <i class="bi bi-youtube"></i>
-            <i class="bi bi-reddit"></i>
+  <footer class="container-fluid mx-auto mt-5 pt-5">
+    <div class="container">
+      <div class="row col-12">
+        <div class="row justify-content-around">
+          <div class="col-12 col-md-3 mb-5">
+            <h5 class="mb-4">Our socials</h5>
+            <div class="socials">
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-twitter-x"></i>
+              <i class="bi bi-youtube"></i>
+              <i class="bi bi-reddit"></i>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4">
+            <h5>Quick links</h5>
+            <i class="bi bi-link-45deg"></i><a href="">Home</a><br>
+            <i class="bi bi-link-45deg"></i><a href="">Overview</a><br>
+            <i class="bi bi-link-45deg"></i><a href="">About</a><br>
+            <i class="bi bi-link-45deg"></i><a href="">Case studies</a><br>
+            <i class="bi bi-link-45deg"></i><a href="">Contact us</a><br>
+          </div>
+          <div class="col-12 col-md-3">
+            <h5>Contact us</h5>
+            <i class="bi bi-telephone-fill"></i><span> +44 07762 425257</span><br>
+            <i class="bi bi-envelope-at-fill"></i><span> support@codepulsedigital.com</span>
+            <br><br>
+            <h5>Join our mailing list</h5>
+            <input class="me-2 subscribe" placeholder="john@example.com"><i id="subscribe" class="bi bi-arrow-right-circle"></i>
           </div>
         </div>
-        <div class="col-4 text-center">
-          <p>© Codepulse Digital 2023</p>
-          <img class="mx-auto" src="images/footer-pulse.png">
-        </div>
-        <div class="col-12 col-md-4">
-          <h5>Contact us</h5>
-          <i class="bi bi-telephone-fill"></i><span> +44 07762 425257</span><br>
-          <i class="bi bi-envelope-at-fill"></i><span> support@codepulsedigital.com</span>
-        </div>
+      </div>
+      <div class="col-12 mt-5 mx-auto text-center">
+        <p>© Codepulse Digital 2023</p>
+        <img class="col-4 col-md-2 mx-auto" src="images/footer-pulse.png">
       </div>
     </div>
   </footer>

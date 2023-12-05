@@ -1,5 +1,4 @@
 /* CSS Goes Here */
-@import 'animate.css';
 
 *::selection {
     background: #F0F0F0;
@@ -39,7 +38,7 @@
 }
 
 .introvideo {
-    position:static;
+    position: absolute;
 }
 
 .overview {
@@ -132,7 +131,6 @@ footer {
 footer img {
     display: block;
     margin: 0 auto;
-    width: 35%;
     z-index: -1;
 }
 
@@ -145,6 +143,20 @@ footer button {
     z-index: 10;
 }
 
+footer a {
+    color: #212529;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .subscribe {
+    padding: 8px;
+    border-radius: 20px;
+}
+
 .socials i{
     background-color: #E9E9E9;
     padding: 1rem;
@@ -155,10 +167,4 @@ footer button {
     background-color: #E1E1E1;
     box-shadow: 2px solid black;
     transition-duration: 0.3s;
-}
-
-@media screen and (max-width: 768px) {
-    .navigate {
-        visibility: hidden;
-    }
 }
